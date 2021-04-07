@@ -17,13 +17,13 @@ class Users
     protected $users;
 
     /**
-     * This method will return call users data
+     * This method will return all users data
      * @return array|string
      */
     public function allUsers()
     {
 
-        // curl request to all the api
+        // curl request to call the api
         $this->all_users = self::curlRequest();
 
         // making sure there is data
