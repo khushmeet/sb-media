@@ -17,7 +17,7 @@ index.php is a small bootstrap file that initiate class
 ```
 | Directory               | Purpose                                     |
 |:-----------------------:|:-------------------------------------------:|
-| App       			  | handles all the logic                       |
-| View  	              | respond with the corresponding view         |
+| App       			        | handles all the logic                       |
+| View  	                | respond with the corresponding view         |
 ```
 
