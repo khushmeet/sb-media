@@ -17,7 +17,7 @@ class Users
     protected $users;
 
     /**
-     * This method will return all users data
+     * This method will return call users data
      * @return array|string
      */
     public function allUsers()
@@ -51,7 +51,7 @@ class Users
     public  function getUser($id=null) 
     {
 
-        // curl request to all the api
+        // curl request to call the api
         $this->all_users = self::curlRequest();
 
         if(!empty($this->all_users))
