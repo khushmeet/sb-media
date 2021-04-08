@@ -11,6 +11,14 @@ The following information is displayed
 ```shell
 index.php is a small bootstrap file that initiate class
 ```
+To get single User replace the below method in view 
+```shell
+$all_users = $all_user->allUsers(); 
+```
+With 
+```shell
+$all_users = $all_user->getUser(); 
+```
 
 
 ## Directory Structure
